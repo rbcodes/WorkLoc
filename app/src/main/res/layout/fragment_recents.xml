@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#F2e8DC"
+              android:layout_gravity="center"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:text="0"
+                android:background="@drawable/border_style"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:text="0"
+                android:background="@drawable/border_style"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:text="6"
+                android:gravity="center"
+                android:background="@drawable/border_style"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="KM"
+                android:gravity="bottom"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/border_style"
+                 />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Current Speed"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/border_style"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="50.36 Km/h"
+                android:gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/border_style"
+                />
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Current Date and Time"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/border_style"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="50.36 Km/h"
+                android:gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/border_style"
+                />
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="Start new trip"
+        android:layout_gravity="center"/>
+</LinearLayout>

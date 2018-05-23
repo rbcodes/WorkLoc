@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bb_menu_recents"
+        android:icon="@drawable/ic_location_on_white_24dp"
+        android:title="New trip" />
+    <item
+        android:id="@+id/bb_menu_favorites"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:title="My account" />
+    <item
+        android:id="@+id/bb_menu_food"
+        android:icon="@drawable/ic_history_white_24dp"
+        android:title="Trips log" />
+    <item
+        android:id="@+id/bb_menu_friends"
+        android:icon="@drawable/ic_perm_phone_msg_white_24dp"
+        android:title="Contact us" />
+    <item
+        android:id="@+id/bb_menu_nearby"
+        android:icon="@drawable/ic_power_settings_new_white_24dp"
+        android:title="Logout" />
+</menu>

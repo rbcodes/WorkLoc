@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#E6DfD6">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6DfD6">
+
+
+
+        <LinearLayout
+            android:id="@+id/Myprofilelogo"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_margin="10dp"
+                android:contentDescription="My Profile"
+                android:src="@drawable/common_plus_signin_btn_icon_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:text="My Profile"
+                android:textSize="20dp"
+                android:textColor="#6aa01D"/>
+        </LinearLayout>
+
+        <!-- Profile Details -->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginform"
+            android:padding="10dip"
+            android:layout_below="@id/Myprofilelogo"
+            android:background="#F2e8DC"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <!--  Name Label -->
+            <LinearLayout
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#EEEEEE"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kajol rana"
+                    android:textSize="20dp"
+                    android:textColor="#669E9E"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/MYProfile_TVname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!--  Email Label -->
+            <LinearLayout
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/name"
+                android:background="#EEEEEE"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kajolrana27@gmail.com"
+                    android:textSize="20dp"
+                    android:textColor="#669E9E"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/MYProfile_TVEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!--  Job Done Label -->
+            <LinearLayout
+                android:id="@+id/jobdone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/email"
+                android:background="#EEEEEE"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9878978989"
+                    android:textSize="20dp"
+                    android:textColor="#669E9E"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/MYProfile_TVJobdone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <!--  Amount Earned Label -->
+            <LinearLayout
+                android:id="@+id/amountearned"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/jobdone"
+                android:background="#EEEEEE"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="108 Km"
+                    android:textSize="20dp"
+                    android:textColor="#669E9E"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/MYProfile_TVAmountEarned"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>
